@@ -15,8 +15,9 @@ public class CalculatorApp {
             System.out.println("1. 계산기 사용 \n2. 결과값 조회 \n3. 결과값 삭제 \n4. 프로그램 종료");
             System.out.print("번호 선택: ");
             select = scan.nextInt();
-            switch (select) {
 
+
+            switch (select) {
                 case 1:
                     int num01 = 0;
 
