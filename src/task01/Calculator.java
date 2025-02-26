@@ -6,11 +6,11 @@ public class Calculator {
 
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
         System.out.println("######## 양의 정수 계산기 ########");
         System.out.println("'exit' 입력 시 시스템이 종료됩니다.");
 
         while (true) {
-            Scanner scan = new Scanner(System.in);
             String userNum01;
             int num01 = 0;
 
